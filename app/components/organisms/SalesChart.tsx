@@ -1,8 +1,8 @@
-"use client";
-
 import { salesData } from "../../data/salesData";
 
 export default function SalesChart() {
+  if (!salesData) return null;
+
   return (
     <div>
       <h2>Sales Chart</h2>
