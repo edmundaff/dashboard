@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { salesData } from "@/data/salesData";
-import SalesChart from "@/components/organisms/SalesChart";
+import { salesData } from "../data/salesData";
+import SalesChart from "../components/organisms/SalesChart";
 
 export default function Dashboard() {
   const [year, setYear] = useState(2024);
