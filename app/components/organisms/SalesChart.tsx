@@ -1,6 +1,6 @@
 "use client";
 
-import { salesData } from "@/data/salesData";
+import { salesData } from "../../data/salesData";
 
 export default function SalesChart() {
   return (
